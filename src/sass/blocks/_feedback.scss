@@ -1,0 +1,37 @@
+.feedback {
+    height: 920px;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    &-item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 60px;
+        &__descr {
+            margin-left: 60px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            color: #0D0D0D;
+        }
+        &__img {
+            width: 169px;
+            height: 169px;
+        }
+        &__subtitle
+        {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        &__subscribe {
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+    }  
+}
